@@ -1,22 +1,43 @@
-# Embedded Test Demo
+# Embedded Test Demo (C++ / GoogleTest)
 
-Small demo project simulating an embedded-style temperature controller with automated tests.
+This project demonstrates a small embedded-style C++ module with automated unit testing and a modern CMake-based build system on Windows (MSVC).
+
+## Overview
+The project simulates a simple temperature controller that switches a heater on or off based on a target temperature. It is designed to demonstrate testable embedded-style software design.
 
 ## Tech Stack
-- C++ (C++17)
-- Google Test
-- Python (test runner)
-- CMake
+- C++17 (MSVC)
+- CMake build system
+- GoogleTest (via CMake FetchContent)
+- Windows (Visual Studio Build Tools)
 
 ## Features
-- Simple control logic (heater on/off)
-- Unit tests for validation
-- Clean project structure (src/tests)
-- Automated build and test execution
+- Embedded-style control logic (temperature controller)
+- Unit testing with GoogleTest
+- Automated dependency handling via CMake
+- Clean separation of source and tests
+- Reproducible build on Windows
 
-## Getting Started
+## Project Structure
 
-### 1. Install dependencies (Linux)
+- src/ # C++ source code
+- tests/ # Unit tests (GoogleTest)
+- CMakeLists.txt
+- README.md
+
+
+## Build & Run
+
+### 1. Configure project
 ```bash
-sudo apt-get update
-sudo apt-get install libgtest-dev cmake build-essential
+cmake -S . -B build
+cmake --build build
+cd build\Debug
+runTests.exe
+Expected Output
+[==========] Running 2 tests
+[ RUN      ] TemperatureControllerTest.HeaterTurnsOnBelowTarget
+[       OK ] ...
+[ RUN      ] TemperatureControllerTest.HeaterTurnsOffAboveTarget
+[       OK ] ...
+[  PASSED  ] 2 tests.

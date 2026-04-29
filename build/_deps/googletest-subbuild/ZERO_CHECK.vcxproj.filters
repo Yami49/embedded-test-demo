@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\georg\Desktop\C-Project\embedded-test-demo\build\_deps\googletest-subbuild\CMakeFiles\cb7343f208b31bbcd3c364de9fed23ec\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DB6200FB-581A-37D1-A7F3-7242D79CE8D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

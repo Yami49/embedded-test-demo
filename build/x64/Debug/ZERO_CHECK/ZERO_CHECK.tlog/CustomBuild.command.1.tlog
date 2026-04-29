@@ -1,0 +1,10 @@
+^C:\USERS\GEORG\DESKTOP\C-PROJECT\EMBEDDED-TEST-DEMO\BUILD\CMAKEFILES\559FC31DE74CF613B6401BD065AB2337\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/georg/Desktop/C-Project/embedded-test-demo -BC:/Users/georg/Desktop/C-Project/embedded-test-demo/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/EmbeddedTestDemo.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

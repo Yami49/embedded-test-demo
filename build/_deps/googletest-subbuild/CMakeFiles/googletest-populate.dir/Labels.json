@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/cb7343f208b31bbcd3c364de9fed23ec/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/5894f64517cbdf61152fde8704b2d887/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/georg/Desktop/C-Project/embedded-test-demo/build/_deps/googletest-subbuild/CMakeFiles/f45ee897c50ff75996be9d8ec7def6d9/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
